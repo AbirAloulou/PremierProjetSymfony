@@ -1,0 +1,9 @@
+doctrine:
+    dbal:
+        url: '%env(resolve:DATABASE_URL)%'
+        dbname: bd_projet1
+        host: localhost
+        port: 3306
+        user: root
+        password: null
+        driver: mysql
